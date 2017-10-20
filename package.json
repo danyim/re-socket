@@ -1,0 +1,11 @@
+{
+  "name": "re-socket",
+  "version": "0.1.0",
+  "description": "Websocket wrapper that comes with reconnect logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "author": "Daniel Yim <danielyim@gmail.com>",
+  "license": "MIT"
+}
