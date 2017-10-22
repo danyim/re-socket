@@ -21,7 +21,10 @@ new WebSocketClient(context, url, options)
  | `onopen` |  |
  | `onclose` |  |
  | `keepAlive`  |   If enabled, sends a ping frame to the connection at a given interval |
- | `keepAliveTimeout`   |   Interval in ms for sending ping frames<br />   - `keepAliveBody`       Body of the ping frame<br />   - `debug`       Logs all events to the console<br />   - `verbose`     Logs minimal events to the console |
+ | `keepAliveTimeout`   |   Interval in ms for sending ping frames | 
+ | `keepAliveBody` | Body of the ping frame | 
+ | `debug` | Logs all events to the console | 
+ | `verbose` | Logs minimal events to the console |
 
  ```javascript
 const ws = new WebSocketClient(
