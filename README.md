@@ -15,7 +15,7 @@ new WebSocketClient(context, url, options)
 | `name` | Friendly name for the connection (helpful for logging) |
 | `timeout` | Timeout in ms to retry. The retry logic will add this value every time it reconnects. |
 | `maxRetries` | Number of times to attempt reconnecting quitting. Value can be -1 to try.  |
-| `timeoutStrategy` |  Function used to evaluate the duration of the next timeout. <br />Likely function options: <br />- additive timeouts (t => t + t) or<br />- constant timeouts (t => t) |
+| `timeoutStrategy` |  A function used to evaluate the duration of the next timeout. <br />Likely options: <br />- additive timeouts (`t => t + t`) or<br />- constant timeouts (`t => t`) |
  | `onmessage` |  |
  | `onerror` |  |
  | `onopen` |  |
